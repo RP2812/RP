@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.box{
+  border: 2px solid black;
+  width: 500px;
+  margin: 5rem;
+  padding: 3rem;
+}
+
+body{
+  /* background: linear-gradient(to left, #EFD0C5,rgba(165,179,223,0.4) 75%) */
+  background-color: aliceblue;
+}
+
+h1{
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin: 0 40rem 20rem 0;
+}
+
+#main-details-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5rem 0;
+  
+  
+}
+
+#candidate-details div.details-forms {
+  margin: 2rem 0;
+}
+
+#candidate-details label {
+  font-weight: bold;
+}
+
+#candidate-details input,
+#candidate-details textarea {
+  width: 350px;
+  padding: 0.9rem;
+  margin: 0.5rem 0 0;
+  border-radius: 5px;
+  border: 1px solid #030303;
+}
+
+button {
+  background-color: #d04353;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.4rem 2rem;
+  color: white;
+ 
+  transition: all 0.3s ease;
+  width: 15rem;
+
+}
+
+h1:hover {
+  transform: translateY(-8px);
+  box-shadow: 10px 10px rgba(139, 137, 128, 0.411);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+background-color: #000000;
+transform: translateY(-8px);
+box-shadow: 10px 10px rgba(139, 137, 128, 0.411);
+cursor: pointer;
+transition: all 0.5s ease;
+}
+
+.details-box{
+  display: flex;
+  margin: 0.5rem 0 1rem;
+  justify-content: space-between;
+}
+
+
+#candidate-details-img {
+  width: 30%;
+}
+
+#candidate-details-img img {
+  width: 100%;
+  border-radius: 2rem;
+}
+ #candidate-details-img img:hover{
+  background-color: #000000;
+  transform: translateY(-8px);
+  box-shadow: 10px 10px rgba(139, 137, 128, 0.411);
+  cursor: pointer;
+  transition: all 0.5s ease;
+  } 
+
+#fName#Email_id#CollegeN#BranchN{
+  height: 25px;
+  width: 180px;
+}

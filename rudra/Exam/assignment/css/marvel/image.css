@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#imgmain {
+    background: linear-gradient(to top, #000000, rgba(0,0,0,0.5) 55%),
+    url("../image/back.jpg") top center;
+    display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100vh;
+ 
+}
+h1,
+h5 {
+  margin: 0 0 0.3rem;
+}
+
+#imgmain div {
+  margin: 1rem;
+  border-radius: 0.8rem;
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+  background-size: 18rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.4rem;
+}
+
+#img1 {
+  background: linear-gradient(to top, #000000, transparent 55%),
+    url("../image/rudra.jpg") top center;
+}
+
+#img2 {
+  background: linear-gradient(to top, #000000, transparent 55%),
+    url("../image/rudra2.jpg") center;
+}
+#img3 {
+  background: linear-gradient(to top, #000000, transparent 55%),
+    url("../image/rudra3.jpg") center;
+}
+
+#img1,
+#img2,
+#img3 {
+  transition: all 0.3s ease;
+  width: 15rem;
+}
+
+#img1:hover,
+#img2:hover,
+#img3:hover {
+  transform: translateY(-8px);
+  box-shadow: 10px 10px rgba(139, 137, 128, 0.411);
+}

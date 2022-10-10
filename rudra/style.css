@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+}
+#questions
+{       
+        width: 500px;
+        margin: 6rem;
+        padding: 3rem;
+        border-radius: 40px;
+        background: linear-gradient(to left, #EFD0C5,rgba(165,179,223,0.4) 75%)
+}
+#answers{
+    width: 500px;
+    margin: 6rem;
+    padding: 2rem;
+    border-radius: 20px;
+    background: linear-gradient(to left, #EFD0C5,rgba(165,179,223,0.4) 75%)
+}
+
+h1{
+    /* color: red; */
+    margin: 0 0 1rem;
+    
+}
+p{
+    margin: 1.3rem;
+}
+
+.option{
+    padding: 1rem 0.5rem;
+    background: rgb(207, 207, 207);
+    border-radius: 15px;
+}
+
+ol{
+    margin: 0 0 0 30px;
+}
+.submit {
+    margin-top: 1rem;
+    background-color: #d04353;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.4rem 2rem;
+    color: white;
+}  
+#red,
+#yellow{
+    width: 20px;
+    height: 20px;
+}
+
+#red{
+    background: red;
+    margin: 0 10px 0 0;
+}
+
+#yellow{
+    background: yellow;
+    margin: 0 10px 0 0;
+}
+
+.indic{
+    display: flex;
+}
+
+.indicators{
+    display: flex;
+    width: 100%;
+    height: 5%;
+}
+span{
+    margin: 0 2.9rem 0 0;
+}
+.tline{
+    margin: 1rem 0 0 0;
+    width: 435px;
+    height: 10px;
+    background-color: rgb(11, 117, 20);
+}
+.qselection1{
+    margin: 3rem 0 0 1rem;
+    padding: 1rem;
+    border: black;
+    height: 280px;
+    background-color: #d4d2d6;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.line1,.line2,.line3,.line4,.line5{
+    display: flex;
+}
+.qbox1
+{
+    margin: 0.3rem 1.5rem 0.3rem 1rem ;
+background-color: #f7e9e9;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 40px;
+width: 40px;
+cursor: pointer;
+}
+.ansbtn{
+    margin: 0.5rem;
+    display: flex;
+}
+.review{
+    margin: 0.5rem 0.3rem 0 0;
+    width: 50%;
+    background-color: #203372;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.4rem 2rem;
+    color: white;
+}
+.summary{
+    margin: 0.5rem 0 0 4rem;
+    width: 50%;
+    background-color: #203372;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.4rem 2rem;
+    color: white;
+}
+
+button:hover {
+    background-color: #000000;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+
+div:hover.qbox1{
+    background-color: #349bc4;
+    color: white;
+}
+p{
+    margin: 1rem;
+}
